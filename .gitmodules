@@ -1,0 +1,6 @@
+[submodule "backend-test"]
+	path = backend-test
+	url = https://github.com/Jpucuna/my-nest-api.git
+[submodule "frontend-test"]
+	path = frontend-test
+	url = https://github.com/Jpucuna/my-react-app-test.git

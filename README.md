@@ -13,7 +13,7 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
 - **React** – Frontend construido con este lenguaje.
 - **NestJS** – Framework para construir aplicaciones backend escalables con Node.js.
-- **PostgreSQL** – Base de datos relacional utilizada para almacenar los feriados.
+- **PostgreSQL** – Base de datos relacional utilizada para almacenar los Usuarios.
 - **Docker** – Contenedores para facilitar la ejecución y despliegue del entorno completo.
 
 ## Configuración del entorno

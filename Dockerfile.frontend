@@ -1,8 +1,8 @@
 # Dockerfile for calendar-test (frontend)
 FROM node:19.9.0
 WORKDIR /app
-COPY ./my-react-app-test/package*.json ./
+COPY ./frontend-test/package*.json ./
 RUN npm install
-COPY ./my-react-app-test .
+COPY ./frontend-test .
 EXPOSE 8080
 CMD ["npm", "run", "dev"]

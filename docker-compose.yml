@@ -38,7 +38,7 @@ services:
     ports:
       - "5173:5173"
     volumes:
-      - ./my-react-app-test:/app
+      - ./frontend-test:/app
       - /app/node_modules
     working_dir: /app
     command: npm run dev -- --host
